@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILYAS</title>
+    <link rel="shortcut icon" href="./resources/i.jpg" type="image/x-icon">
+    
+    <STYle>
+        .flex {
+            display: flex;
+            flex-direction: row;
+            background-color: blueviolet;
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+        }
+
+        .flex>div {
+            background-color: black;
+            color: white;
+            margin: 5px;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .flex>div:hover {
+            background-color: rgb(255, 255, 255);
+            font-size: medium;
+            text-decoration: underline; 
+        }
+
+        A {
+            text-decoration: none;
+        }
+
+        w1 {
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            position: inherit;
+        }
+        a{
+            color: white;
+        }
+        a:active{
+            color: red;
+        }
+        a:visited , a:active {
+            color:aqua;
+            text-decoration-line: overline;
+        }
+    </STYle>
+</head>
+
+<body>
+    <div class="flex">
+        <div><a href="./homepage.html">HOME</a></div>
+        <div><a href="./loginpage.html">LOGIN PAGE</a></div>
+        <div><a href="#">SERVICES</a></div>
+        <div><a href="./about.html" target="_self">ABOUT</a></div>
+        <div><a href="./contactus.html">CONTACT US</a></div>
+    </div>
+    
+</body>
+
+</html>

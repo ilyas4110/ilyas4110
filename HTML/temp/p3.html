@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    body {
+      background-color: violet;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      overflow: visible;
+    }
+
+    #e1 {
+      /* position: relative; */
+      background-color: blueviolet;
+      box-shadow: 2px 2px 3px red, 4px 4px 3px black;
+      text-align: center;
+      margin: 0px 100px 20px 100px;
+      padding: 10px 0px 10px 0px;
+      font-size: 50px;
+    }
+
+    #div_img {
+      position: absolute;
+      left: 15px;
+      right: 0;
+      top: 8px;
+      bottom: 0;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      transition: width 2s, height 2s, transform 2s;
+      animation-name: ani1;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+    }
+
+    /* @keyframes ani1 {
+      from {
+        left: 15vw;
+        right: 0;
+        top: 8vw;
+        bottom: 0;
+      }
+      to{
+        left: 0vw;
+        right: 0;
+        top: 0vw;
+        bottom: 50px;
+      }
+    } */
+
+    #div_img:hover {
+      height: 81px;
+      width: 81px;
+      transform: rotate(720deg);
+      visibility: ;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="e1"><img src="/resources/ilyas.jpg" id="div_img" height="80px" width="80px" alt="">Login page</div>
+
+</body>
+
+</html>
